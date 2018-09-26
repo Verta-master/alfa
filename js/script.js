@@ -6,5 +6,4 @@ $('.menu-btn').click(function() {
 
 $('.nav-btn').click(function() {
   $('#nav_top').toggleClass('nav_top--opened');
-//  $('#nav-top ul').toggleClass('nav_list');
 });

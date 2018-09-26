@@ -1,0 +1,332 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<!-- Это обычный HTML-файл, какой получается у любого верстальщика. Если данный файл поместить в папку themes, то diafan.CMS выведет его в качестве дизайна для сайта. Если diafan.CMS находит специальные шаблонные теги, то вместо них выводится необходимая информация. Устроен специальный шаблонный тег так: insert name="..." плюс атрибуты, все в угловых скобках -->
+<!-- шаблонный тег вывода заголовка сайта в браузере -->
+<title>Магазин мягкой мебели в Краснодаре</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- шаблонный тег вывода тега описания -->
+<meta name="description" content="«АльфаМебельПлюс» – это производитель качественной сравнительно недорогой и удобной мебели. В каталоге компании собрано множество вариантов, благодаря которым любая ваша комната будет обставлена лучшим образом.">
+<!-- шаблонный тег вывода ключевых слов -->
+<meta name="keywords" content="диван , кресло , купить,в краснодар, недорого, дешего, качественно, мягкая мебель, краснодар, перетяжка мебели, на заказ">
+<meta content="Russian" name="language">
+<meta content="DiAfan http://www.diafan.ru/" name="author">
+<link href="http://mebel.lidstudio.ru/css/default.css" rel="stylesheet" type="text/css">
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://mebel.lidstudio.ru/news/rss/">
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="http://yandex.st/jquery/form/3.14/jquery.form.min.js" charset="UTF-8"></script><script type="text/javascript" src="http://yandex.st/jquery-ui/1.10.3/jquery-ui.min.js" charset="UTF-8"></script>
+		<link href="http://mebel.lidstudio.ru/css/custom-theme/jquery-ui-1.8.18.custom.css" rel="stylesheet" type="text/css">
+
+		<script type="text/javascript" src="http://mebel.lidstudio.ru/js/timepicker.js" charset="UTF-8"></script>
+
+		<script type="text/javascript" src="http://mebel.lidstudio.ru/js/user-func.js" charset="UTF-8"></script>
+			<script src="http://mebel.lidstudio.ru/js/jquery.prettyPhoto.js" type="text/javascript" charset="UTF-8"></script>
+			<link rel="stylesheet" href="http://mebel.lidstudio.ru/css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8">
+<meta name="robots" content="all">
+
+<link href="http://mebel.lidstudio.ru/css/menu.css" rel="stylesheet" type="text/css">
+
+
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+        <script type="text/javascript" src="http://mebel.lidstudio.ru/js/common.js"></script>
+
+
+        
+        <!-- jQuery Plugin scripts -->
+        <script type="text/javascript" src="http://mebel.lidstudio.ru/js/kit/external/jquery.easing.1.3.min.js"></script>
+        <script type="text/javascript" src="http://mebel.lidstudio.ru/js/kit/external/jquery.mousewheel.min.js"></script>
+        <script type="text/javascript" src="http://mebel.lidstudio.ru/js/kit/external/lightbox/jquery-lightbox/js/jquery.lightbox-0.5.pack.js"></script>
+        
+        <script type="text/javascript" src="http://mebel.lidstudio.ru/js/kit/sliderkit/jquery.sliderkit.1.9.2.pack.js"></script>
+        <script type="text/javascript">
+            $(window).load(function(){ //$(window).load() must be used instead of $(document).ready() because of Webkit compatibility
+
+                // Sliderkit photo gallery > With captions
+                $(".photosgallery-captions").sliderkit({
+                    navscrollatend: true,
+                    mousewheel:false,
+                    keyboard:true,
+                    shownavitems:4,
+                    auto:false,
+                    fastchange:true
+                });
+                
+                // jQuery Lightbox
+                var lightboxPath = "http://mebel.lidstudio.ru/js/kit/external/lightbox/jquery-lightbox/";
+                $("a[rel='group1']").lightBox({
+                    imageLoading:lightboxPath+"img/kit/images/lightbox-ico-loading.gif",
+                    imageBtnPrev:lightboxPath+"img/kit/images/lightbox-btn-prev.gif",
+                    imageBtnNext:lightboxPath+"img/kit/images/lightbox-btn-next.gif",
+                    imageBtnClose:lightboxPath+"img/kit/images/lightbox-btn-close.gif",
+                    imageBlank:lightboxPath+"img/kit/images/lightbox-blank.gif"
+                });
+                
+            });
+        </script>
+
+
+        <!-- Slider Kit launch -->
+        <script type="text/javascript">
+            $(window).load(function(){ //$(window).load() must be used instead of $(document).ready() because of Webkit compatibility       
+                
+                // Photo slider > Minimal
+                $(".contentslider-std").sliderkit({
+                    auto:0,
+                    tabs:1,
+                    circular:1,
+                    panelfx:"sliding",
+                    panelfxfirst:"fading",
+                    panelfxeasing:"easeInOutExpo",
+                    fastchange:0,
+                    keyboard:1
+                });
+                
+            }); 
+        </script>
+
+
+        
+        <!-- Slider Kit styles -->
+        <link rel="stylesheet" type="text/css" href="http://mebel.lidstudio.ru/css/kit_css/sliderkit-core.css" media="screen, projection" />
+        <link rel="stylesheet" type="text/css" href="http://mebel.lidstudio.ru/css/kit_css/sliderkit-demos.css" media="screen, projection" />
+        <!-- Slider Kit compatibility -->   
+        <!--[if IE 6]><link rel="stylesheet" type="text/css" href="http://mebel.lidstudio.ru/css/kit_css/sliderkit-demos-ie6.css" /><![endif]-->
+        <!--[if IE 7]><link rel="stylesheet" type="text/css" href="http://mebel.lidstudio.ru/css/kit_css/sliderkit-demos-ie7.css" /><![endif]-->
+        <!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://mebel.lidstudio.ru/css/kit_css/sliderkit-demos-ie8.css" /><![endif]-->
+        <link rel="stylesheet" type="text/css" href="http://mebel.lidstudio.ru/css/kit_css/sliderkit-site.css" media="screen, projection" />
+        <link rel="stylesheet" type="text/css" href="http://mebel.lidstudio.ru/js/kit/external/lightbox/jquery-lightbox/css/jquery.lightbox-0.5.css" media="screen, projection" />
+
+  <link href="http://mebel.lidstudio.ru/css/style.css" rel="stylesheet" type="text/css">
+  <meta  name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">//<![CDATA[
+var _tmr = _tmr || [];
+_tmr.push({id: "2435816", type: "pageView", start: (new Date()).getTime()});
+(function (d, w) {
+   var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+   ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+   var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+   if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window);
+//]]></script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2435816;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter --> 
+<div class="page_background">
+<div class="container">
+<div class="footer_bg">
+<div class="about_background">
+<div class="main">
+ 
+    <header id="header">
+        <nav id="nav_top">
+            <button type="button" class="nav-btn"></button>
+            <ul><li><a href="http://mebel.lidstudio.ru/">Главная</a></li><li><a href="http://mebel.lidstudio.ru/o-kompanii/" title = "Производство мягкой мебели "Альфа Мебель Плюс" " alt= "О компании">О компании</a></li><li><a href="http://mebel.lidstudio.ru/clauses/stati/" title = "производство мягкой мебели. В Краснодаре" alt= "Интересные статьи">Статьи</a></li><li><a href="http://mebel.lidstudio.ru/klientam/">Клиентам</a></li><li><a href="http://mebel.lidstudio.ru/otzivi/">Отзывы</a></li><li><a href="http://mebel.lidstudio.ru/news/">Новости</a></li><li><a href="http://mebel.lidstudio.ru/kontakty/" title="Контакты" alt="Контакты">Контакты</a></li></ul>
+
+        </nav>
+ 
+        <div id="logo">
+            <a href="http://mebel.lidstudio.ru/"><img src="http://mebel.lidstudio.ru/img/logo.png" width="239" height="116" /></a>
+        </div>
+ 
+        <div id="tel">
+            <div class="tel_text">
+                Вы можете нам позвонить:
+            </div>
+            <div class="phones">
+                <p><span>+7 (918) 233-07-38</span></p>
+<p><span>+7 (928) 274-44-98</span></p>
+<p>+7 (861) 244-05-64</p>
+            </div>
+        </div>
+ 
+        <div id="social_icons">
+            <span class="soc_text">Мы в социальных сетях</span>
+                <ul>
+<li><a href="#"><img src="http://mebel.lidstudio.ru/img/social/vk.jpg" gt="" a="" /></a></li>
+<li><a href="#"><img src="http://mebel.lidstudio.ru/img/social/facebook.jpg" gt="" a="" /></a></li>
+<li><a href="#"><img src="http://mebel.lidstudio.ru/img/social/twitter.jpg" gt="" a="" /></a></li>
+<li><a href="http://ok.ru/group/57474048000039"><img src="http://mebel.lidstudio.ru/img/social/odnoklassniki.jpg" gt="" a="" /></a></li>
+</ul>
+        </div>
+ 
+        <div id="search">
+                        
+<div class="search">
+	<form action="http://mebel.lidstudio.ru/shop/" method="get">
+	<input type="text" name="n" value="" placeholder="Поиск по сайту" class="input_search">
+	<input type="hidden" name="action" value="search">
+<input type="hidden" value="0" name="cat_id">
+	<input type="submit" value="" class="submit_search">
+	</form>
+</div>
+
+        </div>
+ 
+        <div id="contacts">
+                <p>email:&nbsp;<a href="mailto:info@alfamebelplus.ru" title="Отправить письмо"><span class="bold_contacts">info@alfamebelplus.ru</span></a></p>
+        </div>
+ 
+ 
+ 
+ 
+        <nav id="nav_bottom">
+          <button type="button" class="menu-btn"></button>
+                <ul><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/" title = "Лучший магазин мягкой мебели в Краснодаре" alt= "Каталог мягкой мебели в краснодаре, Лучший магазин мягкой мебели в Краснодаре">Каталог мягкой мебели</a></li><li class="menu_separator"></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-tkaney/" title = "Каталог тканей" alt= "Каталог тканей">Каталог тканей</a></li><li class="menu_separator"></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-korpusnoy-mebeli/" title = "изготовление корпусной мебели на заказ в Краснодаре" alt= "Каталог корпусной мебели">Каталог корпусной мебели</a></li><li class="menu_separator"></li><li><a href="http://mebel.lidstudio.ru/galereya/">Галерея работ</a></li><li class="menu_separator"></li><li><a href="http://mebel.lidstudio.ru/uslugi/">Услуги</a></li></ul>
+        </nav>
+    </header>
+ 
+ 
+ 
+     <div class="page_content">
+        <div id="content">
+                 <h1 class="zag">Каталог мягкой мебели</h1><div class="shop_list"><div class="shop_cat_text"><h1>Магазин мягкой мебели в Краснодаре</h1><h4 style="text-align: justify;"><span style="font-size: medium;">&laquo;АльфаМебельПлюс&raquo; &ndash; это производитель качественной сравнительно недорогой и удобной мебели. В каталоге компании собрано множество вариантов, благодаря которым любая ваша комната будет обставлена лучшим образом. Избавляетесь от старого хламья? Только переехали и нужно обустроить жилье? Решили сделать сюрприз родителям? Тогда вам стоит обратиться именно в &laquo;АльфаМебельПлюс&raquo;. Лучший&nbsp;магазин мягкой мебели в Краснодаре&nbsp;предлагает вам свои услуги. Мы подарим вашему дому новый облик. Широкий ассортимент, богатый выбор дизайнерских решений, цветовая гамма на любой вкус &ndash; это далеко не все, что мы можем вам предложить. Всю мебель можно условно разделить на современную и классическую. У нас можно выбрать и ту и другую.</span></h4></div><table><tr><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-28/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/818_alfa-28.jpg"  alt="Альфа 28" title="Альфа 28" image_id="818"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-28/">Альфа 28</a></div><div class="shop_new">Новинка!</div><script type="text/javascript" src="http://mebel.lidstudio.ru/modules/shop/shop.js"></script></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-32-lyuks/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/816_alfa-32-lyuks.jpg"  alt="Альфа 32 Люкс" title="Альфа 32 Люкс" image_id="816"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-32-lyuks/">Альфа 32 Люкс</a></div></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-nabory/alfa-8/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/812_alfa-8.jpg"  alt="Альфа 8" title="Альфа 8" image_id="812"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-nabory/alfa-8/">Альфа 8</a></div><div class="shop_new">Новинка!</div></td></tr><tr><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-172/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/798_alfa-172.jpg"  alt="Альфа 172" title="Альфа 172" image_id="798"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-172/">Альфа 172</a></div></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-33/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/780_alfa-33.jpg"  alt="Альфа 33" title="Альфа 33" image_id="780"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-33/">Альфа 33</a></div></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-divany-s-barom/alfa-93-delfin/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/777_alfa-93-delfin.png"  alt="Альфа 93 Дельфин" title="Альфа 93 Дельфин" image_id="777"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-divany-s-barom/alfa-93-delfin/">Альфа 93 Дельфин</a></div></td></tr><tr><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-93-vykatnoy/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/764_alfa-93-vykatnoy.jpg"  alt="Альфа 93 Выкатной" title="Альфа 93 Выкатной" image_id="764"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-93-vykatnoy/">Альфа 93 Выкатной</a></div></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-77-vykatnoy/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/761_alfa-77-vykatnoy.png"  alt="Альфа 77 Выкатной" title="Альфа 77 Выкатной" image_id="761"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-77-vykatnoy/">Альфа 77 Выкатной</a></div></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-83d-vykatnoy/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/760_alfa-83d-vykatnoy.png"  alt="Альфа 83Д Выкатной" title="Альфа 83Д Выкатной" image_id="760"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-83d-vykatnoy/">Альфа 83Д Выкатной</a></div></td></tr><tr><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-nabory/alfa-77/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/752_alfa-77.jpg"  alt="Альфа 77" title="Альфа 77" image_id="752"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-nabory/alfa-77/">Альфа 77</a></div></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-83d/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/748_alfa-83d.jpg"  alt="Альфа 83Д" title="Альфа 83Д" image_id="748"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-83d/">Альфа 83Д</a></div></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-nabory/alfa-173d/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/614_alfa-173d.jpg"  alt="Альфа 173Д" title="Альфа 173Д" image_id="614"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-nabory/alfa-173d/">Альфа 173Д</a></div></td></tr><tr><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-174d/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/611_alfa-174.jpg"  alt="Альфа 174Д" title="Альфа 174Д" image_id="611"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-174d/">Альфа 174Д</a></div></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-181/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/799_alfa-181.jpg"  alt="Альфа 181" title="Альфа 181" image_id="799"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-181/">Альфа 181</a></div></td><td><div class="shop_img"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-180/"><img src="http://mebel.lidstudio.ru/userfiles/shop/small/605_alfa-180.jpg"  alt="Альфа 180" title="Альфа 180" image_id="605"></a> </div><div class="item_title"><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/alfa-180/">Альфа 180</a></div></td></tr></table><div class="paginator"><li><span>[1]</span> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page2/">2</a> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page3/">3</a> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page4/">4</a> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page5/">5</a> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page6/">6</a> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page7/">7</a> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page8/">8</a> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page9/">9</a> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page10/">10</a> </li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/page10/">&#187;</a> </li></div><div class="previous_next_links"><div class="next_link"><a href="http://mebel.lidstudio.ru/shop/mekhanizmy-transformatsii/">Механизмы трансформации &rarr;</a></div></div></div>
+
+        </div>
+         
+        <aside>
+
+            <div id="nav_left">
+              <button type="button" class="sidebar-btn">Каталог</button>
+              <ul><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/" title = "Лучший магазин мягкой мебели в Краснодаре" alt= "Каталог мягкой мебели в краснодаре, Лучший магазин мягкой мебели в Краснодаре">Каталог мягкой мебели</a><ul><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/detskaya-mebel/">Детская мебель</a></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/krovati/">Кровати</a></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/mebel-dlya-ofisa/">Мебель для офиса</a></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/">Наборы, диваны, кресла</a></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/sofa/">Софа</a></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/takhta/">Тахта</a></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-divany-s-barom/">Угловые диваны с баром</a></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/uglovye-nabory/">Угловые наборы</a></li></ul></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-tkaney/">Каталог тканей</a></li><li><a href="http://mebel.lidstudio.ru/shop/katalog-korpusnoy-mebeli/">Каталог корпусной мебели</a></li><li><a href="http://mebel.lidstudio.ru/shop/dlya-ofisa/">Для офиса</a></li><li><a href="http://mebel.lidstudio.ru/mekhanizmy-transformatsii/">Механизмы трансформации</a></li><li><a href="http://mebel.lidstudio.ru/uslugi/">Услуги</a></li><li><a href="http://mebel.lidstudio.ru/galereya/">Галерея работ</a></li></ul>
+
+            </div>
+              <div>
+<div class="faq_block"><div class="block_header">Отзывы</div><div class="faq"><div class="faq_date">26 марта 2017  г.</div><div class="faq_question"><a href="http://mebel.lidstudio.ru/otzivi/show33/">Заказали диван и кресло 174Д, сделали быстро (даже не ожидали), качественно и красиво! Отдельное спасибо Анне! Очень был важен совет знающего человека))) Действительно...</a></div><div class="faq_answer"></div></div><div class="faq"><div class="faq_date">15 декабря 2015  г.</div><div class="faq_question"><a href="http://mebel.lidstudio.ru/otzivi/spasibo-alfamebelplyus-za-khoroshuyu-i-kachestvenn/">Спасибо &quot;АльфаМебельПлюс&quot; за хорошую и качественную мебель!
+Отдельные слова благодарности Анне за внимательное и отзывчивое отношение, которая  помогла...</a></div><div class="faq_answer"></div></div><div class="faq"><div class="faq_date">09 июня 2015  г.</div><div class="faq_question"><a href="http://mebel.lidstudio.ru/otzivi/priobrela-divan-alfa-77on-supersovetuyu-vsemne-poz/">Приобрела диван Альфа 77.Он-супер!!!Советую всем,не пожалеете!Спасибо менеджеру-Анне, все рассказала, подсказала, посоветовала.Диван доставлен в сроки(даже раньше,чем...</a></div><div class="faq_answer"></div></div><div class="show_all"><a href="http://mebel.lidstudio.ru/otzivi/">Все отзывы</a></div></div>
+              </div>
+        </aside>
+                
+        <div class="clr"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+  
+    <div class="about">
+        <div class="about_company">
+            <h1 class="about_title">
+                О компании
+            </h1>
+ 
+ 
+               <p style="text-align: justify;"><a href="http://mebel.lidstudio.ru/" title="Магазин мягкой мебели"><b>Салон мебели</b> &laquo;<b>АльфаМебельПлюс&raquo;</b></a></p>
+<p style="text-align: justify;">Компания &laquo;<a href="http://mebel.lidstudio.ru/o-kompanii/" title="О компании">АльфаМебельПлюс</a>&raquo; занимает лидирующие позиции среди прочих предприятий в Краснодаре по <a href="http://mebel.lidstudio.ru/uslugi/proizvodstvo-myagkoy-i-korpusnoy-mebeli-na-zakaz-/" title="производство мягкой мебели">производству</a> и <a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/" title="Каталог мягкой мебели">реализации</a>&nbsp;мебели. В этом нет ничего странного, учитывая, что уже более десяти лет специалисты фирмы изготавливают качественную удобную и долговечную мебель. На каждую товарную позицию действует <a href="http://mebel.lidstudio.ru/uslugi/garantiynoe-i-poslegarantiynoe-obsluzhivanie-/" title="Гарантийное обслуживание">гарантия</a>. Жителям Краснодара повезло, ведь в черте города действует еще и услуга бесплатной <a href="http://mebel.lidstudio.ru/uslugi/dostavka-mebeli/" title="Доставка по городу и краю">доставки</a>. Вам остается лишь нажать кнопку &laquo;Купить&raquo;, находящуюся на странице с понравившемся товаром, и в считанные дни <a href="http://mebel.lidstudio.ru/shop/katalog-myagkoy-mebeli/nabory-divany-kresla/" title="Диваны, кресла">диван</a>, <a href="http://mebel.lidstudio.ru/shop/katalog-korpusnoy-mebeli/" title="Каталог корпусной мебели">шкаф</a> или другой предмет мебели окажется у вас дома. Также Вы можете заказать услугу по <a href="http://mebel.lidstudio.ru/uslugi/peretyazhka-mebeli-/">перетяжке&nbsp;старой мебели</a>.</p>
+                </div>
+ 
+        <article class="news_block">
+                <div class="sliderkit contentslider-std"><h1 class="news_title">
+          Новости
+      </h1>
+      <div class="sliderkit-btn sliderkit-go-btn sliderkit-go-prev news_go_prev"><a href="#" title="Previous"><img src="http://mebel.lidstudio.ru/img/nav_icon_left.png"></a></div>
+      <div class="sliderkit-btn sliderkit-go-btn sliderkit-go-next news_go_next"><a href="#" title="Next"><img src="http://mebel.lidstudio.ru/img/nav_icon_right.png" /></a></div>
+          <div class="sliderkit-panels">
+	<div class="sliderkit-panel"><div class="date">02 июня</div><div class="news_zag"><a href="http://mebel.lidstudio.ru/news/novinki/">Новинки!!!</a></div><div class="news_content">Добавлены на&nbsp;сайт новые модели Альфа 173Д, Альфа 174Д, Альфа 180, Альфа 181&nbsp;.</div></div>
+	<div class="sliderkit-panel"><div class="date">24 декабря</div><div class="news_zag"><a href="http://mebel.lidstudio.ru/news/novye-modeli/">Новые модели</a></div><div class="news_content">Наше производство разработало новые модели диванов: Альфа 12А, Альфа 15, Альфа 18,...</div></div>
+	<div class="sliderkit-panel"><div class="date">01 декабря</div><div class="news_zag"><a href="http://mebel.lidstudio.ru/news/novogodnyaya-aktsiya/">Новогодняя акция!</a></div><div class="news_content">С 1 по 31 декабря предоставляются скидки в размере 3-5% при покупке мебели (мягкая...</div></div><div class="show_all"><a href="http://mebel.lidstudio.ru/news/">Все новости</a></div>                  </div>
+                </div>
+                <!-- // end of contentslider-std -->
+        </article>
+ 
+        <div class="clr"></div>
+    </div>
+ 
+ 
+  
+    <footer id="footer">
+            <div id="contact_bottom">
+                <p><strong>Адрес:</strong></p>
+<p>г. Краснодар, ул. Северная, 389, оф.23, 3-й этаж</p>
+<p>(пересечение улиц Северная/Садовая)</p>
+            </div>                                             
+            <div id="phones">
+                <p>&copy; 2016 АльфаМебельПлюс&nbsp;</p>
+<p>Все права защищены</p>
+            </div>
+            <div class="liveinternet">
+                <!-- Rating@Mail.ru logo -->
+<p><a href="http://top.mail.ru/jump?from=2435816"> <img src="//top-fwz1.mail.ru/counter?id=2435816;t=602;l=1" style="border: 0;" height="40" width="88" alt="Рейтинг@Mail.ru" /></a></p>
+<!-- //Rating@Mail.ru logo -->
+<p></p>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">// <![CDATA[
+(function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter32126095 = new Ya.Metrika({
+                    id:32126095,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+// ]]></script>
+<noscript>&amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;lt;img src="https://mc.yandex.ru/watch/32126095" style="position:absolute; left:-9999px;" alt="" /&amp;amp;amp;amp;amp;amp;amp;amp;gt;&amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- /Yandex.Metrika counter -->
+<p></p>
+<!--Google counter -->
+<script type="text/javascript">// <![CDATA[
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66696544-1', 'auto');
+  ga('send', 'pageview');
+// ]]></script>
+<!--Openstat-->
+<p></p>
+<script type="text/javascript">// <![CDATA[
+var openstat = { counter: 1, next: openstat };
+(function(d, t, p) {
+var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
+var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+})(document, "script", document.location.protocol);
+// ]]></script>
+<!--/Openstat-->
+            </div>
+    </footer>
+
+
+ 
+</div><!-- end of main -->
+</div><!-- end of about_background -->
+</div><!-- end of footer_bg -->
+</div><!-- end of container -->
+</div><!-- end of page background -->
+<script src="js/script.js"></script>
+<script src="js/sidebar.js"></script>
+</body>
+</html>
