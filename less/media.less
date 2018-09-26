@@ -1,0 +1,248 @@
+.menu-btn,
+.nav-btn {
+  display: none;
+}
+.new_products ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.new_products li {
+  padding: 0;
+  margin-right: 44px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 960px) {
+  .main {
+    width: 100%;
+  }
+  #header {
+    width: 100%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  #nav_top {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #tel .phones,
+  #logo,
+  #tel,
+  #social_icons,
+  #search,
+  #contacts {
+    position: static;
+  }
+  #logo {
+    margin-bottom: 10px;
+  }
+  #nav_bottom {
+    width: 100%;
+    top: auto;
+    bottom: -10px;
+  }
+  #nav_bottom ul {
+    width: 100%;
+  }
+  .photosgallery-captions .sliderkit-panel,
+  .photosgallery-captions {
+    width: 100%;
+  }
+  #slider img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .sliderkit-go-next {
+    right: 0;
+    left: auto;
+  }
+  .sliderkit-go-prev,
+  .sliderkit-go-next {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .about,
+  .new_products {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .about_company {
+    width: 100%;
+    float: none;
+  }
+  .news_block {
+    padding: 0;
+    width: 100%;
+    float: none;
+  }
+  #search {
+    width: auto;
+    background-position: right center;
+    border-left: 1px solid rgba(0,0,0,0.2);
+  }
+  #search .input_search {
+    width: 220px;
+    background-color: rgba(255,255,255,0);
+  }
+  .search form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #search .submit_search {
+    width: 30px;
+  }
+}
+
+//-----------------------------------
+@media (max-width: 766px) {
+  .nav-btn {
+    display: block;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    background-color: rgba(255,255,255,0);
+    background-image: url(../img/icon-menu-ham.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    outline: none;
+    cursor: pointer;
+  }
+  #nav_top ul {
+    display: none;
+    position: absolute;
+    top: 95%;
+    left: 0;
+    width: 200px;
+    background-color: #fafafa;
+    color: #000;
+  }
+  #nav_top li a {
+    color: #000;
+  }
+  .nav_top--opened {
+    .nav-btn {
+      background-image: url(../img/icon-menu-cross.svg);
+      background-size: 20px 20px;
+    }
+  }
+  #nav_top.nav_top--opened ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  #social_icons,
+  #search,
+  #contacts {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border: 0;
+    background-color: rgba(255,255,255,0);
+    background-image: url(../img/icon-menu-ham-red.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    outline: none;
+    cursor: pointer;
+  }
+  .menu--opened {
+    .menu-btn {
+      background-image: url(../img/icon-menu-cross-red.svg);
+      background-size: 20px 20px;
+    }
+  }
+  #nav_bottom ul {
+    display: none;
+    width: 100%;
+    height: auto;
+    top: 100%;
+  }
+  #nav_bottom {
+    position: relative;
+    bottom: 0;
+    background-image: none;
+  }
+  #nav_bottom li:last-child,
+  #nav_bottom li {
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  #nav_bottom li.menu_separator {
+    display: none;
+  }
+  #footer {
+    height: auto;
+    padding: 10px;
+    background-color: #fafafa;
+  }
+  #phones,
+  #contact_bottom {
+    position: static;
+  }
+  #phones {
+    padding-top: 10px;
+  }
+  .liveinternet {
+    right: 10px;
+    bottom: 10px;
+    top: auto;
+  }
+}
+
+//-------------------------------
+@media (max-width: 480px) {
+  #logo {
+    max-width: 50%;
+    
+    a {
+      display: block;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .tel_text {
+    display: none;
+  }
+  #tel p {
+    font-size: 14px;
+  }
+  #header {
+    padding-bottom: 20px;
+  }
+  .new_products ul {
+    justify-content: space-around;
+  }
+  .new_products li {
+    margin-right: 0;
+  }
+}

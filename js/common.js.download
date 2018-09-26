@@ -1,0 +1,21 @@
+$(document).ready(function() {    
+  
+    $('.click_tab').click(function() {
+         var rel = $(this).attr('rel');
+         $('.box').hide();
+         $('.text_' + rel).show();
+         $('.click_tab').removeClass("active");
+         $(this).addClass("active");
+
+    })
+	
+	$('.transform_name').hover(
+		function(){
+			$(this).parents('.inner_good_transform').find('.transform_img').show();
+		},
+		function(){
+			$(this).parents('.inner_good_transform').find('.transform_img').hide();
+		}		
+	);
+
+});

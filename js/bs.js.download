@@ -1,0 +1,21 @@
+/**
+ * JS-сценарий обработки клика по баннеру
+ * 
+ * @package    Diafan.CMS
+ * @author     diafan.ru
+ * @version    5.3
+ * @license    http://cms.diafan.ru/license.html
+ * @copyright  Copyright (c) 2003-2013 OOO «Диафан» (http://diafan.ru)
+ */
+$(document).ready(function() { 
+    $('.bs_counter').click(function(){
+        var banner_id = $(this).attr('rel');
+        $("input[name='banner_id']").val(banner_id);
+        $('.bs_form').submit();
+	if($(this).attr('target') == '_blank')
+	{
+	    window.open($(this).attr('href'), '_blank');
+	}
+	return false;
+	});
+});
